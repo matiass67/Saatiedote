@@ -1,0 +1,88 @@
+body {
+  
+  min-height: 100px;
+  background-image: linear-gradient(rgb(100, 129, 255), rgb(0, 34, 255), rgb(100, 129, 255));
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 240px));
+  grid-auto-rows: minmax(120px, auto);
+  gap: 18px;
+  justify-content: center; /* Keep other boxes centered */
+  align-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+button{
+  background-color: rgb(100, 129, 255);
+  border: none;
+  border-radius: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+color: rgb(255, 255, 255);
+}
+
+#ennuste {
+  background-color: rgba(92, 159, 227, 0.635);
+  width: 100%;
+  max-width: 240px;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 50px 0;
+  position: absolute; 
+  left: 30px;
+  transform: translateY(50%);
+  min-height: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+h1 {
+  background-color: rgba(92, 159, 227, 0.635);
+  border-radius: 30px;
+  grid-column: 1 / -1;
+  margin: 0 0 8px 0;
+  text-align: center;
+  align-self: end;
+}
+
+div {
+  background-color: rgba(92, 159, 227, 0.635);
+  width: 100%;
+  max-width: 240px;
+  border: 2px solid rgba(0, 0, 0, 0.272);
+  padding: 10px;
+  border-radius: 30px;
+  min-height: 120px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 6px 0;
+}
+
+h2 {
+  margin: 4px 0;
+}
+
+p {
+  margin: 4px 0;
+  color: #111;
+}
